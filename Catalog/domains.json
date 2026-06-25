@@ -1,0 +1,51 @@
+[
+    {
+        "id": "langage_oral",
+        "title": "Langage oral",
+        "icon": "bubble.left.and.bubble.right.fill",
+        "color": "#F48FB1",
+        "order": 1
+    },
+    {
+        "id": "langage_ecrit",
+        "title": "Langage écrit",
+        "icon": "character.book.closed.fill",
+        "color": "#BA68C8",
+        "order": 2
+    },
+    {
+        "id": "maths",
+        "title": "Construire les premiers outils mathématiques",
+        "icon": "123.rectangle.fill",
+        "color": "#64B5F6",
+        "order": 3
+    },
+    {
+        "id": "monde",
+        "title": "Explorer le monde",
+        "icon": "globe.europe.africa.fill",
+        "color": "#4DB6AC",
+        "order": 4
+    },
+    {
+        "id": "motricite",
+        "title": "Agir, s'exprimer, comprendre",
+        "icon": "figure.run",
+        "color": "#81C784",
+        "order": 5
+    },
+    {
+        "id": "arts",
+        "title": "Activités artistiques",
+        "icon": "paintpalette.fill",
+        "color": "#FFB74D",
+        "order": 6
+    },
+    {
+        "id": "vivre_ensemble",
+        "title": "Vivre ensemble",
+        "icon": "heart.fill",
+        "color": "#E57373",
+        "order": 7
+    }
+]
