@@ -11,41 +11,73 @@ struct EvaluationView: View {
 
         Form {
 
-            Section {
+            Section("Élève") {
+
+                Text(student.fullName)
+                    .font(.headline)
+
+            }
+
+            Section("Compétence") {
 
                 Text(skillTitle)
-                    .font(.headline)
+                    .font(.body)
 
             }
 
             Section("Évaluation") {
 
-                Picker(
-                    "Niveau",
-                    selection: $status
-                ) {
+                ForEach(SkillStatus.allCases, id: \.self) { state in
 
-                    ForEach(
-                        SkillStatus.allCases,
-                        id: \.self
-                    ) { state in
+                    Button {
 
-                        Text(
-                            "\(state.symbol) \(state.title)"
-                        )
-                        .tag(state)
+                        status = state
+
+                    } label: {
+
+                        HStack {
+
+                            Text(state.symbol)
+                                .font(.title2)
+
+                            Text(state.title)
+
+                            Spacer()
+
+                            if status == state {
+
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundStyle(.green)
+
+                            }
+
+                        }
 
                     }
+                    .buttonStyle(.plain)
 
                 }
 
-                .pickerStyle(.inline)
+            }
+
+            Section("Résultat") {
+
+                HStack {
+
+                    Spacer()
+
+                    Text(status.symbol)
+                        .font(.system(size: 70))
+
+                    Spacer()
+
+                }
 
             }
 
         }
-
         .navigationTitle(student.firstName)
+        .navigationBarTitleDisplayMode(.inline)
 
     }
 
@@ -53,13 +85,17 @@ struct EvaluationView: View {
 
 #Preview {
 
-    EvaluationView(
-        student: Student(
-            firstName: "Emma",
-            lastName: "Martin",
-            birthDate: .now
-        ),
-        skillTitle: "Je dis mon prénom"
-    )
+    NavigationStack {
+
+        EvaluationView(
+            student: Student(
+                firstName: "Emma",
+                lastName: "Martin",
+                birthDate: .now
+            ),
+            skillTitle: "Je dis mon prénom"
+        )
+
+    }
 
 }

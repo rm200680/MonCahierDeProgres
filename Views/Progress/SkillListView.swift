@@ -5,39 +5,38 @@ struct SkillListView: View {
     let student: Student
     let domainName: String
 
-    var skills: [CatalogSkill] {
+    private var skills: [String] {
 
-        PSCatalog.skills.filter {
-
-            $0.domain == domainName
-
+        guard let domain = PSCatalog.domains.first(where: {
+            $0.title == domainName
+        }) else {
+            return []
         }
 
+        return domain.skills
     }
 
     var body: some View {
 
         List {
 
-            ForEach(skills) { skill in
+            ForEach(skills, id: \.self) { skill in
 
                 NavigationLink {
 
                     EvaluationView(
                         student: student,
-                        skillTitle: skill.title
+                        skillTitle: skill
                     )
 
                 } label: {
 
-                    VStack(alignment: .leading, spacing: 6) {
+                    HStack {
 
-                        Text(skill.title)
-                            .font(.headline)
+                        Image(systemName: "circle")
+                            .foregroundStyle(.gray)
 
-                        Text(skill.category)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                        Text(skill)
 
                     }
 
@@ -46,8 +45,8 @@ struct SkillListView: View {
             }
 
         }
-
         .navigationTitle(domainName)
+        .navigationBarTitleDisplayMode(.inline)
 
     }
 
@@ -55,13 +54,17 @@ struct SkillListView: View {
 
 #Preview {
 
-    SkillListView(
-        student: Student(
-            firstName: "Emma",
-            lastName: "Martin",
-            birthDate: .now
-        ),
-        domainName: "Apprendre ensemble et vivre ensemble"
-    )
+    NavigationStack {
+
+        SkillListView(
+            student: Student(
+                firstName: "Emma",
+                lastName: "Martin",
+                birthDate: .now
+            ),
+            domainName: "Apprendre ensemble et vivre ensemble"
+        )
+
+    }
 
 }

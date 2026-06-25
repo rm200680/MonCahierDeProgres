@@ -31,6 +31,7 @@
 		D01AA9A02FED9030006FD2FF /* EvaluationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA99F2FED9030006FD2FF /* EvaluationService.swift */; };
 		D01AA9A32FED9152006FD2FF /* PSCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9A22FED9152006FD2FF /* PSCatalog.swift */; };
 		D01AA9A52FED9295006FD2FF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9A42FED9295006FD2FF /* Category.swift */; };
+		D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		D01AA99F2FED9030006FD2FF /* EvaluationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationService.swift; sourceTree = "<group>"; };
 		D01AA9A22FED9152006FD2FF /* PSCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSCatalog.swift; sourceTree = "<group>"; };
 		D01AA9A42FED9295006FD2FF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogLoader.swift; sourceTree = "<group>"; };
 		D088697D2FEC67270086CC2C /* Mon cahier de progrès.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mon cahier de progrès.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088698C2FEC672C0086CC2C /* Mon cahier de progrèsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08869962FEC672D0086CC2C /* Mon cahier de progrèsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				D01AA99F2FED9030006FD2FF /* EvaluationService.swift */,
+				D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				D01AA96F2FEC8DBD006FD2FF /* Student.swift in Sources */,
 				D01AA97D2FED7F53006FD2FF /* AddStudentView.swift in Sources */,
 				D01AA9862FED8688006FD2FF /* Domain.swift in Sources */,
+				D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */,
 				D01AA9A52FED9295006FD2FF /* Category.swift in Sources */,
 				D01AA99D2FED8E59006FD2FF /* EvaluationView.swift in Sources */,
 				D01AA98E2FED878D006FD2FF /* Skill.swift in Sources */,
