@@ -13,7 +13,6 @@
 		D01AA9752FED7C72006FD2FF /* DashboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9742FED7C72006FD2FF /* DashboardCard.swift */; };
 		D01AA9772FED7CD1006FD2FF /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9762FED7CD1006FD2FF /* StudentListView.swift */; };
 		D01AA9792FED7CF5006FD2FF /* StudentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9782FED7CF5006FD2FF /* StudentRowView.swift */; };
-		D01AA97B2FED7D20006FD2FF /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA97A2FED7D20006FD2FF /* StudentDetailView.swift */; };
 		D01AA97D2FED7F53006FD2FF /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA97C2FED7F53006FD2FF /* AddStudentView.swift */; };
 		D01AA97F2FED8387006FD2FF /* EditStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA97E2FED8387006FD2FF /* EditStudentView.swift */; };
 		D01AA9812FED8505006FD2FF /* StudentAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9802FED8505006FD2FF /* StudentAvatarView.swift */; };
@@ -22,7 +21,7 @@
 		D01AA98C2FED877A006FD2FF /* SkillStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA98B2FED877A006FD2FF /* SkillStatus.swift */; };
 		D01AA98E2FED878D006FD2FF /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA98D2FED878D006FD2FF /* Skill.swift */; };
 		D01AA9902FED88CE006FD2FF /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA98F2FED88CE006FD2FF /* Level.swift */; };
-		D01AA9922FED8939006FD2FF /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9912FED8939006FD2FF /* StatCard.swift */; };
+		D01AA9922FED8939006FD2FF /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9912FED8939006FD2FF /* StatCardView.swift */; };
 		D01AA9942FED89A1006FD2FF /* DomainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9932FED89A1006FD2FF /* DomainListView.swift */; };
 		D01AA9962FED89B9006FD2FF /* SkillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9952FED89B9006FD2FF /* SkillListView.swift */; };
 		D01AA9992FED8CB2006FD2FF /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9982FED8CB2006FD2FF /* Evaluation.swift */; };
@@ -32,6 +31,9 @@
 		D01AA9A32FED9152006FD2FF /* PSCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9A22FED9152006FD2FF /* PSCatalog.swift */; };
 		D01AA9A52FED9295006FD2FF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9A42FED9295006FD2FF /* Category.swift */; };
 		D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */; };
+		D01AA9BA2FEDCF06006FD2FF /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9B92FEDCF06006FD2FF /* PDFGenerator.swift */; };
+		D01AA9D02FEDD75C006FD2FF /* StudentDetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */; };
+		D01AA9E62FEE4D6C006FD2FF /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,6 @@
 		D01AA9742FED7C72006FD2FF /* DashboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCard.swift; sourceTree = "<group>"; };
 		D01AA9762FED7CD1006FD2FF /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
 		D01AA9782FED7CF5006FD2FF /* StudentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRowView.swift; sourceTree = "<group>"; };
-		D01AA97A2FED7D20006FD2FF /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
 		D01AA97C2FED7F53006FD2FF /* AddStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
 		D01AA97E2FED8387006FD2FF /* EditStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentView.swift; sourceTree = "<group>"; };
 		D01AA9802FED8505006FD2FF /* StudentAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAvatarView.swift; sourceTree = "<group>"; };
@@ -67,7 +68,7 @@
 		D01AA98B2FED877A006FD2FF /* SkillStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillStatus.swift; sourceTree = "<group>"; };
 		D01AA98D2FED878D006FD2FF /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		D01AA98F2FED88CE006FD2FF /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
-		D01AA9912FED8939006FD2FF /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		D01AA9912FED8939006FD2FF /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
 		D01AA9932FED89A1006FD2FF /* DomainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainListView.swift; sourceTree = "<group>"; };
 		D01AA9952FED89B9006FD2FF /* SkillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListView.swift; sourceTree = "<group>"; };
 		D01AA9972FED8AB1006FD2FF /* domains.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = domains.json; sourceTree = "<group>"; };
@@ -78,6 +79,9 @@
 		D01AA9A22FED9152006FD2FF /* PSCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSCatalog.swift; sourceTree = "<group>"; };
 		D01AA9A42FED9295006FD2FF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogLoader.swift; sourceTree = "<group>"; };
+		D01AA9B92FEDCF06006FD2FF /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentDetailView .swift"; sourceTree = "<group>"; };
+		D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
 		D088697D2FEC67270086CC2C /* Mon cahier de progrès.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mon cahier de progrès.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088698C2FEC672C0086CC2C /* Mon cahier de progrèsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08869962FEC672D0086CC2C /* Mon cahier de progrèsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +169,7 @@
 			children = (
 				D01AA99F2FED9030006FD2FF /* EvaluationService.swift */,
 				D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */,
+				D01AA9B92FEDCF06006FD2FF /* PDFGenerator.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -206,7 +211,7 @@
 			children = (
 				D01AA9762FED7CD1006FD2FF /* StudentListView.swift */,
 				D01AA9782FED7CF5006FD2FF /* StudentRowView.swift */,
-				D01AA97A2FED7D20006FD2FF /* StudentDetailView.swift */,
+				D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */,
 				D01AA97E2FED8387006FD2FF /* EditStudentView.swift */,
 				D01AA9802FED8505006FD2FF /* StudentAvatarView.swift */,
 				D01AA9822FED8575006FD2FF /* PhotoPickerView.swift */,
@@ -229,7 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				D01AA9742FED7C72006FD2FF /* DashboardCard.swift */,
-				D01AA9912FED8939006FD2FF /* StatCard.swift */,
+				D01AA9912FED8939006FD2FF /* StatCardView.swift */,
+				D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -405,12 +411,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01AA96D2FEC8CAF006FD2FF /* ContentView.swift in Sources */,
-				D01AA9922FED8939006FD2FF /* StatCard.swift in Sources */,
+				D01AA9922FED8939006FD2FF /* StatCardView.swift in Sources */,
 				D01AA9752FED7C72006FD2FF /* DashboardCard.swift in Sources */,
 				D01AA9772FED7CD1006FD2FF /* StudentListView.swift in Sources */,
 				D01AA9792FED7CF5006FD2FF /* StudentRowView.swift in Sources */,
 				D01AA9812FED8505006FD2FF /* StudentAvatarView.swift in Sources */,
 				D01AA9732FED7C42006FD2FF /* HomeView.swift in Sources */,
+				D01AA9E62FEE4D6C006FD2FF /* StatCard.swift in Sources */,
 				D01AA9A32FED9152006FD2FF /* PSCatalog.swift in Sources */,
 				D01AA9832FED8575006FD2FF /* PhotoPickerView.swift in Sources */,
 				D01AA9A02FED9030006FD2FF /* EvaluationService.swift in Sources */,
@@ -419,11 +426,12 @@
 				D01AA96F2FEC8DBD006FD2FF /* Student.swift in Sources */,
 				D01AA97D2FED7F53006FD2FF /* AddStudentView.swift in Sources */,
 				D01AA9862FED8688006FD2FF /* Domain.swift in Sources */,
+				D01AA9D02FEDD75C006FD2FF /* StudentDetailView .swift in Sources */,
 				D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */,
+				D01AA9BA2FEDCF06006FD2FF /* PDFGenerator.swift in Sources */,
 				D01AA9A52FED9295006FD2FF /* Category.swift in Sources */,
 				D01AA99D2FED8E59006FD2FF /* EvaluationView.swift in Sources */,
 				D01AA98E2FED878D006FD2FF /* Skill.swift in Sources */,
-				D01AA97B2FED7D20006FD2FF /* StudentDetailView.swift in Sources */,
 				D01AA99B2FED8D62006FD2FF /* LearningDomain.swift in Sources */,
 				D01AA9962FED89B9006FD2FF /* SkillListView.swift in Sources */,
 				D01AA9902FED88CE006FD2FF /* Level.swift in Sources */,
