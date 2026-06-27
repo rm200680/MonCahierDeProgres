@@ -32,8 +32,11 @@
 		D01AA9A52FED9295006FD2FF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9A42FED9295006FD2FF /* Category.swift */; };
 		D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */; };
 		D01AA9BA2FEDCF06006FD2FF /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9B92FEDCF06006FD2FF /* PDFGenerator.swift */; };
-		D01AA9D02FEDD75C006FD2FF /* StudentDetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */; };
+		D01AA9D02FEDD75C006FD2FF /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9CF2FEDD75C006FD2FF /* StudentDetailView.swift */; };
 		D01AA9E62FEE4D6C006FD2FF /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */; };
+		D01AAA072FEF11A0006FD2FF /* QuickEvaluationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AAA062FEF11A0006FD2FF /* QuickEvaluationView.swift */; };
+		D01AAA092FEF122A006FD2FF /* QuickDomainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AAA082FEF122A006FD2FF /* QuickDomainView.swift */; };
+		D01AAA0B2FEF1564006FD2FF /* QuickSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01AAA0A2FEF1564006FD2FF /* QuickSkillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +83,11 @@
 		D01AA9A42FED9295006FD2FF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		D01AA9AD2FEDA420006FD2FF /* CatalogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogLoader.swift; sourceTree = "<group>"; };
 		D01AA9B92FEDCF06006FD2FF /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
-		D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentDetailView .swift"; sourceTree = "<group>"; };
+		D01AA9CF2FEDD75C006FD2FF /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
 		D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		D01AAA062FEF11A0006FD2FF /* QuickEvaluationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickEvaluationView.swift; sourceTree = "<group>"; };
+		D01AAA082FEF122A006FD2FF /* QuickDomainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDomainView.swift; sourceTree = "<group>"; };
+		D01AAA0A2FEF1564006FD2FF /* QuickSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSkillView.swift; sourceTree = "<group>"; };
 		D088697D2FEC67270086CC2C /* Mon cahier de progrès.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mon cahier de progrès.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D088698C2FEC672C0086CC2C /* Mon cahier de progrèsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08869962FEC672D0086CC2C /* Mon cahier de progrèsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mon cahier de progrèsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,7 @@
 		D01AA9642FEC87DF006FD2FF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D01AAA052FEF1180006FD2FF /* QuickEvaluation */,
 				D01AA9AA2FED9588006FD2FF /* Shared */,
 				D01AA9A92FED9581006FD2FF /* Progress */,
 				D01AA9A82FED957D006FD2FF /* Students */,
@@ -211,7 +218,7 @@
 			children = (
 				D01AA9762FED7CD1006FD2FF /* StudentListView.swift */,
 				D01AA9782FED7CF5006FD2FF /* StudentRowView.swift */,
-				D01AA9CF2FEDD75C006FD2FF /* StudentDetailView .swift */,
+				D01AA9CF2FEDD75C006FD2FF /* StudentDetailView.swift */,
 				D01AA97E2FED8387006FD2FF /* EditStudentView.swift */,
 				D01AA9802FED8505006FD2FF /* StudentAvatarView.swift */,
 				D01AA9822FED8575006FD2FF /* PhotoPickerView.swift */,
@@ -238,6 +245,16 @@
 				D01AA9E52FEE4D6C006FD2FF /* StatCard.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		D01AAA052FEF1180006FD2FF /* QuickEvaluation */ = {
+			isa = PBXGroup;
+			children = (
+				D01AAA062FEF11A0006FD2FF /* QuickEvaluationView.swift */,
+				D01AAA082FEF122A006FD2FF /* QuickDomainView.swift */,
+				D01AAA0A2FEF1564006FD2FF /* QuickSkillView.swift */,
+			);
+			path = QuickEvaluation;
 			sourceTree = "<group>";
 		};
 		D08869742FEC67270086CC2C = {
@@ -422,14 +439,17 @@
 				D01AA9832FED8575006FD2FF /* PhotoPickerView.swift in Sources */,
 				D01AA9A02FED9030006FD2FF /* EvaluationService.swift in Sources */,
 				D01AA97F2FED8387006FD2FF /* EditStudentView.swift in Sources */,
+				D01AAA072FEF11A0006FD2FF /* QuickEvaluationView.swift in Sources */,
+				D01AAA092FEF122A006FD2FF /* QuickDomainView.swift in Sources */,
 				D01AA9942FED89A1006FD2FF /* DomainListView.swift in Sources */,
 				D01AA96F2FEC8DBD006FD2FF /* Student.swift in Sources */,
 				D01AA97D2FED7F53006FD2FF /* AddStudentView.swift in Sources */,
 				D01AA9862FED8688006FD2FF /* Domain.swift in Sources */,
-				D01AA9D02FEDD75C006FD2FF /* StudentDetailView .swift in Sources */,
+				D01AA9D02FEDD75C006FD2FF /* StudentDetailView.swift in Sources */,
 				D01AA9AE2FEDA420006FD2FF /* CatalogLoader.swift in Sources */,
 				D01AA9BA2FEDCF06006FD2FF /* PDFGenerator.swift in Sources */,
 				D01AA9A52FED9295006FD2FF /* Category.swift in Sources */,
+				D01AAA0B2FEF1564006FD2FF /* QuickSkillView.swift in Sources */,
 				D01AA99D2FED8E59006FD2FF /* EvaluationView.swift in Sources */,
 				D01AA98E2FED878D006FD2FF /* Skill.swift in Sources */,
 				D01AA99B2FED8D62006FD2FF /* LearningDomain.swift in Sources */,
